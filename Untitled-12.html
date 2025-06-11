@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ishwar Giram - Drone Technology Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-light: #3b82f6;
+      --dark: #1e293b;
+      --text: #334155;
+      --light-bg: #f8fafc;
+      --skill-bg: #e0e7ff;
+    }
+    
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--light-bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      background: white;
+      padding: 30px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    
+    header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 20px;
+      margin-bottom: 15px;
+    }
+    
+    .profile-img {
+      width: 100px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 3px solid var(--primary);
+    }
+    
+    .header-text h1 {
+      margin: 0;
+      font-size: 24px;
+      color: var(--primary);
+    }
+    
+    .header-text p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    
+    .contact-info {
+      display: flex;
+      gap: 15px;
+      font-size: 13px;
+    }
+    
+    .section {
+      margin-bottom: 20px;
+    }
+    
+    .section-title {
+      font-size: 18px;
+      color: var(--primary);
+      border-bottom: 2px solid var(--primary-light);
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+    
+    .profile-text {
+      font-size: 14px;
+      text-align: justify;
+    }
+    
+    .skills-container, .languages-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    
+    .skill, .language {
+      background: var(--skill-bg);
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 13px;
+    }
+    
+    .two-column {
+      display: flex;
+      gap: 30px;
+    }
+    
+    .column {
+      flex: 1;
+    }
+    
+    ul {
+      padding-left: 20px;
+      margin: 5px 0;
+    }
+    
+    li {
+      font-size: 13px;
+      margin-bottom: 8px;
+      position: relative;
+    }
+    
+    li:before {
+      content: "•";
+      color: var(--primary);
+      font-weight: bold;
+      position: absolute;
+      left: -15px;
+    }
+    
+    .flowchart {
+      background: #f1f5f9;
+      border-radius: 8px;
+      padding: 15px;
+      margin: 15px 0;
+      text-align: center;
+      font-size: 13px;
+    }
+    
+    .project-title {
+      font-weight: 600;
+      color: var(--dark);
+    }
+    
+    .project-desc {
+      font-size: 12px;
+      color: #64748b;
+    }
+    
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      
+      .two-column {
+        flex-direction: column;
+      }
+      
+      .contact-info {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+        <div class="profile-img-placeholder" style="width:100px;height:120px;background:#e2e8f0;display:flex;align-items:center;justify-content:center;border-radius:8px;border:3px solid var(--primary)">
+            [Your Photo]
+          </div>
+      <div class="header-text">
+        <h1>Ishwar Giram</h1>
+        <p>Electronics & Telecommunication Engineering</p>
+        <p>Drone Technology student | IoT Developer</p>
+        <div class="contact-info">
+          <span>Email: giramaishwar582@gmail.com</span>
+          <span>Phone: +91-9270375375</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="section">
+      <h2 class="section-title">Profile</h2>
+      <p class="profile-text">
+        Innovative engineer passionate about drone technology, robotics, and IoT solutions. Combines technical expertise in embedded systems with creative problem-solving to develop cutting-edge technological solutions. Demonstrated leadership in academic projects with practical applications in autonomous systems and environmental monitoring.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-container">
+        <div class="skill">Drone Design & Development</div>
+        <div class="skill">Autonomous Systems</div>
+        <div class="skill">Embedded Systems</div>
+        <div class="skill">IoT Development</div>
+        <div class="skill">Flight Controller Programming</div>
+        <div class="skill">Aerial Photography</div>
+        <div class="skill">CAD Modeling</div>
+        <div class="skill">Python/C++</div>
+      </div>
+    </div>
+
+    <div class="two-column">
+      <div class="column">
+        <div class="section">
+          <h2 class="section-title">Education</h2>
+          <ul>
+            <li><strong>B.E. in E&TC Engineering</strong><br>
+            MITAOE, Pune (2024-2028)<br>
+            1st year completed with full credits</li>
+            <li><strong>Higher Secondary (12th)</strong><br>
+            77% | Science Stream</li>
+            <li><strong>Secondary (10th)</strong><br>
+            88% | Maharashtra Board</li>
+            <li><strong>Achievement:</strong> 1st rank in MTA Competitive Exam (Taluka Level)</li>
+          </ul>
+        </div>
+        
+        <div class="section">
+          <h2 class="section-title">Languages</h2>
+          <div class="languages-container">
+            <div class="language">English (Professional)</div>
+            <div class="language">Marathi (Native)</div>
+            <div class="language">Hindi (Fluent)</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="column">
+        <div class="section">
+          <h2 class="section-title">Projects</h2>
+          <ul>
+            <li>
+              <span class="project-title">Autonomous Drone System</span><br>
+              <span class="project-desc">Individually built functional drone with custom flight controller programming</span>
+            </li>
+            <li>
+              <span class="project-title">Water Turbidity Monitoring System</span><br>
+              <span class="project-desc">2nd semester project using IoT sensors to measure water clarity with real-time data logging</span>
+            </li>
+            <li>
+              <span class="project-title">Smart Parking Management</span><br>
+              <span class="project-desc">IoT-based hospital parking system using ultrasonic sensors</span>
+            </li>
+            <li>
+              <span class="project-title">Energy-Efficient Lighting System</span><br>
+              <span class="project-desc">Dark sensor automation for intelligent lighting control</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="section">
+          <h2 class="section-title">Drone Development Process</h2>
+          <div class="flowchart">
+            [Flowchart: Design → Component Selection → Assembly → Programming → Testing → Optimization]
+            <div style="margin-top:10px;font-size:11px;">Concept to implementation workflow for drone projects</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
